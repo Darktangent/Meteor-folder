@@ -6,6 +6,7 @@ class PlayerList extends React.Component{
     renderPlayers(){
         if(this.props.players.length===0){
             //when no player in the array
+            //add user login feature
             return (
                 <div className="item">
                     <p className="item__message item__message--empty">Add your first player to get started</p>
